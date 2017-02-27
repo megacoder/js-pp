@@ -1,0 +1,3 @@
+#!/bin/zsh
+LIBDIR="${0:h}"
+exec /bin/node "${LIBDIR}/js/js-pp.js" "$@"
